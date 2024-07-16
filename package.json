@@ -12,6 +12,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node lib/index.js",
+    "run": "npm run build && npm run start",
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "local": "sudo npm i -g && wmu"
